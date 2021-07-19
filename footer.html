@@ -1,0 +1,101 @@
+<html>
+<head>
+<style>
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: 191D32;
+   color: white;
+ 
+
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#pg
+{
+    text-align: center;
+}
+#input
+{
+    border-style:double;
+    font-size:20px;
+}
+#button
+{
+    background-color: dodgerblue;
+    font-size: 20px;
+    border-style:double;
+    border-radius: 5px;
+   
+}
+
+</style>
+
+
+
+
+
+</head>
+
+<body>
+
+<div class="footer">
+   
+
+    <div class="row">
+      <div class="column" >
+        <img src="https://i.ibb.co/KG5kBg5/HOSS-WHITE-LOGO-02-PNG-min-scaled.webp"  width="180" class="mb-3">
+      </div>
+      <div class="column" style="background-color:transparent">
+        <h2>Quick Link</h2>
+       <p>About us</p>
+        <p>Contact us</p>
+        <p>Services</p>
+        <p>Blog</p>
+      </div>
+
+      <div class="column" style="background-color:transparent">
+        <h2>Contact Us</h2>
+       <address>Address :Suite No. 243, Bhayani Center.</address>
+       <p>nofalsaleemkhan@gmail.com</p>
+      <p>030024245657</p>
+      </div>
+
+      <div class="column" style="background-color:transparent">
+        <h2>Newsletter</h2>
+       <form id="form">
+       <input id="input" type="email"><button id="button">Send</button></input>
+       </form>
+       
+        </div>
+   <div>
+   
+    </div>
+
+    
+
+</div>
+<div id="pg"style="background-color: 282F44;" height="5px">Copyright © 2021 House of Smart Services. All Rights Reserved.</div>
+
+</body>
+</html>
